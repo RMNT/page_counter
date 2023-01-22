@@ -1,3 +1,5 @@
+import datetime as dt
+
 class Reader():
   def __init__(self):
     self.all = 'all.txt'
