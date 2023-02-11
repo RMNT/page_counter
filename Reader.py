@@ -293,5 +293,5 @@ class Reader():
 
 
   def get_all_texts(self):
-    all_reads = self.get_texts_list(reader.all)
+    all_reads = self.get_texts_list(self.all)
     return [f'{ar[0]}, {ar[1]}, {ar[2]}, {ar[3]}' for ar in all_reads]
